@@ -1048,7 +1048,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  transform: rotate(-10deg);
+  /* transform: rotate(-10deg); */
   background-image: radial-gradient(
       circle at 30% 30%,
       #fff 1.5%,
@@ -1061,6 +1061,7 @@
   background-position: 0 0, 0 0, 0 0, 0 0;
   -webkit-animation: snow 3s linear infinite;
   animation: snow 3s linear infinite;
+  overflow: hidden;
 }
 @-webkit-keyframes snow {
   100% {
