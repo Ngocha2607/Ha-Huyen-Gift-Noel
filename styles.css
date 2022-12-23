@@ -12,6 +12,16 @@
   background-position: center;
   overflow: hidden;
 }
+#btn{
+  width: 65%; 
+}
+
+@media screen and (min-width: 768px) {
+  #btn{
+    width: 45%;
+  } 
+}
+
 
 .window {
   width: 340px;
@@ -1082,9 +1092,9 @@ body {
   -webkit-transition: 3s;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
   height: 100vh;
   overflow: hidden;
 }
